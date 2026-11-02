@@ -36,17 +36,12 @@ systemd adalah program pertama yang dijalankan kernel. Tugasnya:
 ### Unit
 
 | Jenis | Fungsi | Contoh|
---------------------------
+| :--- | :--- | :--- |
 |`.service` | Program yang dijalankan | `nginx.service` |
----------------------------------------------------------
 |`.timer` | Penjadwal | `apt-daily.timer` |
--------------------------------------------
 |`.socket` | Menunggu koneksi | `ssh.socket` |
-----------------------------------------------
 | `.target` | Kelompok unit / "mode" sistem | `multi-user.target`|
-------------------------------------------------------------------
 | `.mount` | Titik mount | `home.mount` |
------------------------------------------
 
 ### Unit file dan lokasinya
 
